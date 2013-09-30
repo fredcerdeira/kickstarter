@@ -7,10 +7,9 @@
 <body>
 
 	<?php
-		$firstName = "Frederico";
-		$lastName  = "Cerdeira";
-		$fullname  = $firstName . " - " . $lastName;
-		echo $fullname; 
+		for ($i = 1; $i < 5; $i = $i + 1) {
+			echo '<p>line' . $i . '</p>';
+			} 
 	?>
 
 
